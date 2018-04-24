@@ -9,9 +9,9 @@ This repository contains a set of scripts that produce the statistics seen under
 ### Crontab
 The scripts are not designed to be run manually on a regular basis. Credentials, directory paths and python interpreters are hard coded into the routines, as outlined below, and not designed to be interactively entered. Instead, the scripts are to be run server side on a cron job. For example:
 
-0 8 * * * /your/server/path/to/miniconda2/envs/stats/bin/python ~/ooi_stats/alerts/data_alerts_run.py  
-0 8 * * 5 ~/ooi_stats/stats/stats_run_all.sh > ~/ooi_stats/stats/stats_run.log  
-0 8 * * * /your/server/path/to/bin/miniconda2/envs/stats/bin/python ~/ooi_stats/alerts/platform_alerts/platform_alerts_run.py  
+##### 0 8 * * * /your/server/path/to/miniconda2/envs/stats/bin/python ~/ooi_stats/alerts/data_alerts_run.py  
+##### 0 8 * * 5 ~/ooi_stats/stats/stats_run_all.sh > ~/ooi_stats/stats/stats_run.log  
+##### 0 8 * * * /your/server/path/to/bin/miniconda2/envs/stats/bin/python ~/ooi_stats/alerts/platform_alerts/platform_alerts_run.py  
 
 ### Data Availability and Global Range Stats
 
