@@ -1,6 +1,6 @@
 # Description
 
-This repository contains a set of scripts that produce the statistics seen under `monthly stats` and `daily stats` at http://ooi.visualocean.net/, as well as automated daily alerts about data avilability and science data products being produced outside global ranges. For questions, please contact knuth@marine.rutgers.edu.
+This repository contains a set of scripts that produce the statistics seen under `monthly stats` and `daily stats` at http://ooi.visualocean.net/, as well as automated daily alerts about data avilability and science data products being produced outside global ranges. For questions please contact help@oceanobservatories.org.
 
 ## Setup
 
